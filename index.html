@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive menu</title>
+</head>
+<body>
+    <div class="bg-blue-600 flex justify-between ">
+        <h1 class="text-white text-5xl m-6">Nafta</h1>
+        <i id="icon" class="fa-solid fa-bars text-4xl text-white flex block sm:hidden  mt-6 mr-4 "></i>
+        <i id="cancel" class="fa-solid fa-xmark text-white text-3xl mt-4 mr-2 hidden absolute right-2"></i>
+        <ul id="list" class="text-white flex gap-20 m-6 text-3xl  hidden sm:flex space-y-2 sm:space-y-0 ">
+            <li class="hover:underline cursor-pointer">Home</li>
+            <li class="hover:underline cursor-pointer ">About me</li>
+            <li class="hover:underline cursor-pointer">Service</li>
+            <li class="hover:underline cursor-pointer">Skills</li>
+        </ul>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
